@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compaitable" content="IE=edge">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"/>
+<title>Zenefits To-do List</title>
+<!--[if IE]>
+	<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="scripts/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<link rel="stylesheet" type="text/css" href="styles/responsive.css" />
+</head>
+<body>
+<header class="header">
+<div class="header__inner">
+<image class="header__logo" src="images/logo5.png" />
+<h1 class="header__title">
+JUST DO<span id="blurry__text">N'T</span> <span id="blurry__text">QU</span>IT
+</h1>
+</div>
+</header>
+
+<main class="main">
+<section class="content">
+<div class="container">
+<div class="dataContainer" style="float: left;">
+<div class="dataEntry">
+<input type="text" id="newText" placeholder="Enter task" autofocus>
+<button id="add">Add</button>
+</div>
+<div id="toDosDiv" class="tableClass">
+<table class="toDoItems">
+</table>
+</div>
+
+</div>
+</div>
+</section>
+</main>
+</body>
+</html>
